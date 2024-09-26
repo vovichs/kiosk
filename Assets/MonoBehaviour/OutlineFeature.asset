@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1710994594, guid: bf17cfd6b862ee43e6c1eb0fd0ac70ba, type: 3}
+  m_Name: "OutlineFeature"
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _outlineResources: {fileID: 11400000, guid: 9244bd553d624fb7a55711bd70d557f3, type: 2}
+  _outlineLayers: {fileID: 0}
+  _outlineSettings:
+    _outlineSettings: {fileID: 0}
+    _outlineColor: {r: 1.748804, g: 1.518483, b: 0.5856844, a: 1}
+    _outlineWidth: 2
+    _outlineIntensity: 2
+    _outlineAlphaCutoff: 0.9
+    _outlineMode: 2
+    _filterMode: 1
+    _layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    _renderingLayerMask: 1
+  _renderPassEvent: 500
+  _shaderPassNames: []

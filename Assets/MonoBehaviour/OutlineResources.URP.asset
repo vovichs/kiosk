@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1800944521, guid: f2a6bc5be4478f16442ae502d5ce1b01, type: 3}
+  m_Name: "OutlineResources.URP"
+  m_EditorClassIdentifier: 
+  _renderShader: {fileID: 4800000, guid: 20e789d4ac924561ad6e9aab8c08d9f6, type: 3}
+  _outlineShader: {fileID: 4800000, guid: 086b2c6794ec460eb26e9a96685b58c7, type: 3}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1575395517, guid: 29e813a857f88da7649e95ea78e59b5e, type: 3}
+  m_Name: "UniversalRenderer"
+  m_EditorClassIdentifier: 
+  debugShaders:
+    debugReplacementPS: {fileID: 4800000, guid: 6a856f1a53aa4587a0df03fd284ec687, type: 3}
+  m_RendererFeatures:
+  - {fileID: 11400000, guid: 6cf3c505638f4017b411fd709bbfd59b, type: 2}
+  - {fileID: 11400000, guid: f967b5d4e98c42739ba61bf5436207f7, type: 2}
+  m_RendererFeatureMap:
+  - 2221214988573403459
+  - 3804935095933849857
+  m_UseNativeRenderPass: 0
+  postProcessData: {fileID: 11400000, guid: c2fe93ab06d44ee9a9fbc1689a3dce6e, type: 2}
+  xrSystemData: {fileID: 11400000, guid: c68d946c488f4280ad2d779988735482, type: 2}
+  shaders:
+    blitPS: {fileID: 4800000, guid: 0e283ce024a74b2fbc0e71be6080bcce, type: 3}
+    copyDepthPS: {fileID: 4800000, guid: 807f8188b88a449cb3f82376a35dad00, type: 3}
+    screenSpaceShadowPS: {fileID: 4800000, guid: 574417d196ac41a8af6d89ccd435287f, type: 3}
+    samplingPS: {fileID: 4800000, guid: 709fc92dd5614301b629f2ce4985ac1a, type: 3}
+    stencilDeferredPS: {fileID: 4800000, guid: 6571a28598a641078c7fdd6191440c23, type: 3}
+    fallbackErrorPS: {fileID: 4800000, guid: 54f1515e01a6478bb74401d9b95ff8a9, type: 3}
+    materialErrorPS: {fileID: 4800000, guid: 5c17de2d6fe24b5d9a51987a0c4cd3eb, type: 3}
+    coreBlitPS: {fileID: 4800000, guid: 4adeee9f916a4f67a83b330037de717a, type: 3}
+    coreBlitColorAndDepthPS: {fileID: 4800000, guid: 554d80b2ca184ee19d5920f865f0a958, type: 3}
+    cameraMotionVector: {fileID: 4800000, guid: 3dc163ccbb1140e4827ea4030db26772, type: 3}
+    objectMotionVector: {fileID: 4800000, guid: 1ddff8e162014097b59f2fccf4759c06, type: 3}
+  m_AssetVersion: 2
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_DefaultStencilState:
+    overrideStencilState: 1
+    stencilReference: 1
+    stencilCompareFunction: 6
+    passOperation: 0
+    failOperation: 0
+    zFailOperation: 0
+  m_ShadowTransparentReceive: 1
+  m_RenderingMode: 0
+  m_DepthPrimingMode: 0
+  m_CopyDepthMode: 0
+  m_AccurateGbufferNormals: 0
+  m_ClusteredRendering: 0
+  m_TileSize: 32
+  m_IntermediateTextureMode: 0

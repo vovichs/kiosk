@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d56c8fbfff8c4a8eb0cfffa15b451d7b
+timeCreated: 1726784648
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "VCRosdNEUE"
+  fontNames:
+  - VCRosdNEUE
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 
